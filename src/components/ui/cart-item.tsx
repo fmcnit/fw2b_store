@@ -9,7 +9,7 @@ interface CartItemProps {
 }
 
 const CartItem = ({ product }: CartItemProps) => {
-  const { decreaseProductQuantity, increaseProductQuantity, removeProductFromCart}= useContext(CartContext)
+  const { decreaseProductQuantity, increaseProductQuantity, removeProductFromCart} = useContext(CartContext)
 
 
   const handleDecreaseProductQuantity = ()=>{

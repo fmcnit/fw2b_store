@@ -1,7 +1,7 @@
 const Footer = () => {
     return (
-      <div className="mt-4 bg-accent px-8 py-1 text-center text-[0.5rem] opacity-75">
-        <p>@Site feito pela Fw2B - Ano de Produção 2024</p>
+      <div className="mt-4 bg-accent px-8 py-3 text-center text-[0.7rem] opacity-75">
+        <p>@Site feito pelo FMDev - Ano de Produção 2024</p>
       </div>
     );
 };

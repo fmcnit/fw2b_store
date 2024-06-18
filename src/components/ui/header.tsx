@@ -108,7 +108,7 @@ const Header = () => {
 
         <Link href="/">
           <h1 className="text-lg font-semibold">
-            <span className="text-primary">Fw2b</span> Store
+            <span className="text-primary">FMDev</span> Store
           </h1>
         </Link>
 
