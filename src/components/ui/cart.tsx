@@ -41,7 +41,7 @@ const Cart = ( ) => {
                 <p className="mt-3 text-[0.6rem] ">Nenhum produto adicionado</p>
               ) : (
                 products.map((product) => (
-                  <div>
+                  <div key={product.id}>
                     <CartItem product={product} />
                   </div>
                 ))
